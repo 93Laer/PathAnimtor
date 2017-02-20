@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:drawable="@drawable/login_vector"
+    tools:targetApi="lollipop"
+    >
+    <target
+        android:name="firstHLine"
+        android:animation="@animator/default_show" />
+    <target
+        android:name="true"
+        android:animation="@animator/anim_no_pass_true" />
+    <target
+        android:name="circleTop"
+        android:animation="@animator/anim_no_pass_circle" />
+    <target
+        android:name="circleBouttom"
+        android:animation="@animator/default_gone" />
+    <target
+        android:name="secondHLine"
+        android:animation="@animator/default_gone" />
+</animated-vector>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<set android:ordering="sequentially"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:propertyName="trimPathEnd"
+        android:valueFrom="0"
+        android:valueTo="0"
+        android:duration="1"
+        android:valueType="floatType"
+        android:interpolator="@android:interpolator/linear_out_slow_in"/>
+    <objectAnimator
+        android:propertyName="trimPathEnd"
+        android:valueFrom="0"
+        android:valueTo="1"
+        android:startOffset="500"
+        android:duration="500"
+        android:valueType="floatType"
+        android:interpolator="@android:interpolator/linear_out_slow_in"/>
+</set>

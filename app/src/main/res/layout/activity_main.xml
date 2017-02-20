@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/selectableItemBackgroundBorderless"
+    android:orientation="vertical"
+    android:clickable="true"
+    tools:context="com.xpand.testcamera.MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:id="@+id/te_show"
+        android:textColor="@color/colorAccent"/>
+    <Button
+        android:text="拍照"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onclick"
+        android:layout_alignParentBottom="true"
+        android:background="?attr/selectableItemBackground"/>
+    <Button
+        android:text="上传"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="up"
+        android:layout_alignParentBottom="true"
+        android:background="?attr/selectableItemBackground"/>
+    <ImageView
+        android:id="@+id/img"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/vector2"
+        android:background="?attr/selectableItemBackgroundBorderless"/>
+</LinearLayout>

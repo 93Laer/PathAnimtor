@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="sequentially"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+        android:propertyName="trimPathEnd"
+        android:valueTo="0"
+        android:valueFrom="0"
+        android:valueType="floatType"
+        android:duration="1"
+        />
+    <objectAnimator
+        android:propertyName="trimPathStart"
+        android:valueFrom="1"
+        android:valueTo="0"
+        android:startOffset="200"
+        android:duration="500"
+        android:valueType="floatType"
+        android:interpolator="@android:interpolator/linear_out_slow_in"/>
+    <objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+        android:propertyName="trimPathEnd"
+        android:valueTo="1"
+        android:valueFrom="1"
+        android:valueType="floatType"
+        android:duration="1"
+        />
+    <objectAnimator
+        android:propertyName="trimPathEnd"
+        android:valueFrom="1"
+        android:valueTo="0"
+        android:duration="500"
+        android:valueType="floatType"
+        android:interpolator="@android:interpolator/linear_out_slow_in"/>
+</set>

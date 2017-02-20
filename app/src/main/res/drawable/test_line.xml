@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="75dp"
+    android:height="25dp"
+    android:viewportHeight="120"
+    android:viewportWidth="120">
+    <path
+        android:name="circleTop"
+        android:pathData="
+            M 20,20
+            h100"
+        android:strokeAlpha="0.8"
+        android:strokeColor="@android:color/holo_red_dark"
+        android:strokeWidth="0.5" />
+    <path
+        android:name="circleTop"
+        android:pathData="
+            M 20,20
+            v100"
+        android:strokeAlpha="0.8"
+        android:strokeColor="@android:color/holo_red_dark"
+        android:strokeWidth="0.5" />
+</vector>
