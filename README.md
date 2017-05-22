@@ -65,7 +65,7 @@ PathAnimtor
 
 ![登录界面的vectorDrawable的gif](http://upload-images.jianshu.io/upload_images/1744409-9352cd81dbe50f0a.gif?imageMogr2/auto-orient/strip)
 *感觉还是不错呀*
-###### 注：网上有太多关于这种动画的炫酷效果了，我这里只展示了我自己实现的一个小动画，有兴趣可以自己搜来看
+**注：网上有太多关于这种动画的炫酷效果了，我这里只展示了我自己实现的一个小动画，有兴趣可以自己搜来看**
 <br>
 **分析这个动画的步骤:**
 - 1. 当输入账户名的编辑框获得焦点时显示上面那条横线动画
