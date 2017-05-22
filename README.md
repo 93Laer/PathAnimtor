@@ -7,7 +7,7 @@ http://www.jianshu.com/p/069638839107
 ##### 注意：这篇博客重在为大家提供学习vectorDrawable实习动画的基础知识，但是想要实现更加炫酷的效果就要读者自己去深究了，这个demo中使用了新控件TextInputLayout，读者可以自动忽略
 
 ###### 先展示一下效果图
-</br>
+<br>
 ![登录界面的vectorDrawable](http://upload-images.jianshu.io/upload_images/1744409-aa91f15f4e34d3e4?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ###### 现在看上去还是没一点鸟用哈，也没什么特点，再看看代码吧
 ```
